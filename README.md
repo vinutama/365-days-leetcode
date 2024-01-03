@@ -1,2 +1,2 @@
 # 365-days-leetcode
-Leet Code 365 Days challenge
+The "365 days challenge" on LeetCode refers to a commitment where individuals solve coding problems on the LeetCode platform every day for a year. The goal is to improve coding skills, problem-solving abilities, and algorithmic thinking by consistently practicing. Participants tackle a variety of problems that cover different difficulty levels and topics, such as arrays, strings, linked lists, trees, dynamic programming, and more. The challenge encourages regular practice and helps individuals stay engaged in their coding journey throughout the year.
