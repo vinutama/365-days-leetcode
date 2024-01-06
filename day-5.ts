@@ -45,7 +45,7 @@ function lengthOfLIS(nums: number[]): number {
                 let mid: number = Math.floor((left + right) / 2);
 
                 if (subSequence[mid] < num) left = mid + 1;
-                else right = mid - 1;
+                else right = mid
             }
 
             subSequence[right] = num;
