@@ -116,6 +116,10 @@ func buildUndirectedGraph(root *TreeNode) Graph {
 }
 
 func amountOfTime(root *TreeNode, start int) int {
+	// convert the tree to  the undirected graph
+	// it means mapping each node with relation
+	// something like this
+	// map[1:[5 3] 2:[4] 3:[1 10 6] 4:[5 9 2] 5:[1 4] 6:[3] 9:[4] 10:[3]
 	undirectedGraph := buildUndirectedGraph(root)
 
 	minutes := 0
