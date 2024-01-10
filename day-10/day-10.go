@@ -116,6 +116,10 @@ func buildUndirectedGraph(root *TreeNode) Graph {
 }
 
 func amountOfTime(root *TreeNode, start int) int {
+	if root == nil {
+		return 0
+	}
+
 	// convert the tree to  the undirected graph
 	// it means mapping each node with relation
 	// something like this
@@ -141,6 +145,7 @@ func amountOfTime(root *TreeNode, start int) int {
 			}
 		}
 		// pop the element based on latest size
+		// FIFO (first in first out)
 		queue = queue[size:]
 		// as long as there is queue to check
 		// we adding the minute
